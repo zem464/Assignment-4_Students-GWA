@@ -13,15 +13,15 @@ Write a method in python to write multiple line of text contents into a text fil
 
 ``Enter line: Beautiful is better than ugly.
 
-  Are there more lines y/n? y
+ ``Are there more lines y/n? y
 
-  Enter line: Explicit is better than implicit.
+ ``Enter line: Explicit is better than implicit.
 
-  Are there more lines y/n? y
+ ``Are there more lines y/n? y
 
-  Enter line: Simple is better than complex.
+ ``Enter line: Simple is better than complex.
 
-  Are there more lines y/n? n``
+ ``Are there more lines y/n? n
 
 ## About the Program
 **STEPS**
