@@ -9,3 +9,5 @@ with open("students_gwa.txt") as student_file:
     # Initialize lowest possible gwa and student name
     gwa_equivalent = 5.0
     gwa_student = ""
+    # Read the file line by line
+    for line in student_file:
