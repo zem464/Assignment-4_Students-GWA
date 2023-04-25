@@ -18,3 +18,6 @@ with open("students_gwa.txt") as student_file:
         if gwa < gwa_equivalent:
             gwa_equivalent = gwa
             gwa_student = name
+# Print the name with highest gwa
+print("Highest GWA awardee: ", gwa_student)
+print("GWA: ", gwa_equivalent)
