@@ -13,3 +13,8 @@ with open("students_gwa.txt") as student_file:
     for line in student_file:
         # Split the name and gwa
         name, gwa_str = line.strip().split(" : ")
+        # if gwa is lower than the initialized gwa, get the highest gwa and name
+        gwa = float(gwa_str)
+        if gwa < gwa_equivalent:
+            gwa_equivalent = gwa
+            gwa_student = name
