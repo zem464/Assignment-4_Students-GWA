@@ -19,5 +19,5 @@ with open("students_gwa.txt") as student_file:
             gwa_equivalent = gwa
             gwa_student = name
 # Print the name with highest gwa
-print("Highest GWA awardee: ", gwa_student)
-print("GWA: ", gwa_equivalent)
+print("\033[31m\033[1mHighest GWA awardee: \033[35m\033[0m", gwa_student)
+print("\033[31m\033[1mGWA: \033[35m\033[0m", gwa_equivalent)
