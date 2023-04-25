@@ -11,3 +11,5 @@ with open("students_gwa.txt") as student_file:
     gwa_student = ""
     # Read the file line by line
     for line in student_file:
+        # Split the name and gwa
+        name, gwa_str = line.strip().split(" : ")
