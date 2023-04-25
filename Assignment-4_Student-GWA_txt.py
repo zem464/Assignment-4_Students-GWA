@@ -6,3 +6,6 @@
 
 # Create and open the file with students and gwa
 with open("students_gwa.txt") as student_file:
+    # Initialize lowest possible gwa and student name
+    gwa_equivalent = 5.0
+    gwa_student = ""
